@@ -8,5 +8,10 @@
     padding: 0;
 }
 
+.container {
+    width: 1719px;
+}
+
 @import 'blocks/menu';
 @import 'blocks/promo';
+@import 'blocks/catalog';
