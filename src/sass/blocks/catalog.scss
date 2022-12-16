@@ -2,6 +2,26 @@
     display: grid;
     min-height: 800px;
     &_btn {
-        display: grid;
+        display: flex;
+        margin-top: 50px;
+        &_new, &_popular {
+            background: #000AFF;
+            width: 166.67px;
+            height: 50px;
+            border: 0;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+        &_popular {
+            background: #FFFFFF;
+            color: rgb(0, 0, 0);
+        }
+    }
+    &_all {
+        font-weight: 400;
+        font-size: 18px;
+        color: #000000;
     }
 }
