@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.series {
+    display: grid;
+    grid-template-columns: repeat(4, 480px);
+    grid-template-rows: repeat(2, 300px);
+    gap: 0.5px;
+    background-color: gray;
+    &_block {
+        background-color: #000;
+    }
+    &_title {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        color: #FFFFFF;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    &_more {
+        display: grid;
+        grid-template-columns: repeat(2, 100px);
+        align-items: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        margin-top: 200px;
+        margin-left: 347px;
+    }
+    &_block:hover {
+        background: url(../../img/bg/startkits.png)center center/cover no-repeat ; 
+        cursor: pointer;
+    }
+}
+.footer {
+    border: 0.5px solid gray;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    &_text {
+        margin: 200px auto;
+    }
+}
+
+
+
+
+

@@ -1,6 +1,7 @@
 .promo {
     &_block {
         display: grid;
+        justify-content: space-between;
         grid-template-columns: 960px 960px;
         grid-auto-rows: 429px 429px;
         &_box1 a {

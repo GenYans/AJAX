@@ -1,0 +1,26 @@
+.footer {
+    background-color: black;
+    height: 1100px;
+    &_descr {
+        display: grid;
+        grid-template-columns: 960px 960px;
+        grid-auto-rows: minmax(960px, auto);
+    }
+    &_about, &_news, &_line {
+        margin-top: 50px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 27px;
+        color: #FFFFFF;
+        &_descr {
+            margin-top: 30px;
+            width: 490px;
+        }
+    }
+    &_line {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(4, 411px);
+        text-align: center;
+    }
+}

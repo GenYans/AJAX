@@ -18,10 +18,35 @@
             background: #FFFFFF;
             color: rgb(0, 0, 0);
         }
+        &_all {
+            margin-top: 12px;
+            align-items: center;
+            font-weight: 400;
+            font-size: 18px;
+            color: #000000;
+        }
     }
-    &_all {
-        font-weight: 400;
-        font-size: 18px;
-        color: #000000;
+    &_product {
+        display: grid;
+        grid-template-columns: repeat(3, 573.33px);
+        margin-top: 50px;
+        text-align: center;
+        &_block {
+            border: 1px solid rgba(128, 128, 128, 0.3);
+            &_name {
+                text-align: left;
+                margin-left: 30px;
+                margin-top: 30px;
+            }
+            &_price {
+                display: flex;
+                justify-content: space-between;
+                margin-left: 30px;
+                margin-bottom: 30px;
+                &_art {
+                    margin-right: 30px;
+                }
+            }
+        }
     }
 }
